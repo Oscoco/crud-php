@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Mis estilos estos son mis componentes*/
+.separator{
+    @apply md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700
+}
+.hovertext{
+    @apply hover:text-gray-300
+}
+.title_pages{
+    @apply text-indigo-600 font-bold text-4xl
+}
+.secondary_pages{
+    @apply font-medium text-gray-400
+}
