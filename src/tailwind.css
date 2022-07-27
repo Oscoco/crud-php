@@ -4,6 +4,12 @@
 
 
 /* Mis estilos estos son mis componentes*/
+body{
+    @apply bg-gray-100
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 .separator{
     @apply md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700
 }
@@ -11,8 +17,14 @@
     @apply hover:text-gray-300
 }
 .title_pages{
-    @apply text-indigo-600 font-bold text-4xl
+    @apply text-indigo-600 font-bold
 }
 .secondary_pages{
-    @apply font-medium text-gray-400
+    @apply font-medium text-gray-400 text-xl
+}
+
+/* button style */
+.btn_primary{
+    @apply inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium 
+    rounded-md text-white bg-indigo-600 hover:bg-indigo-700
 }
