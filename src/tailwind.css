@@ -9,6 +9,7 @@ body{
 }
 .dropdown:hover .dropdown-menu {
     display: block;
+    /* left: -40px; */
 }
 .separator{
     @apply md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700
@@ -23,8 +24,19 @@ body{
     @apply font-medium text-gray-400 text-xl
 }
 
+/* forms styles top */
+.border_forms{
+    @apply py-3 border-b border-r border-t border-gray-200
+}
 /* button style */
 .btn_primary{
     @apply inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium 
     rounded-md text-white bg-indigo-600 hover:bg-indigo-700
+}
+.btn_update{
+    @apply flex p-2.5 bg-green-500 rounded-xl hover:rounded-3xl hover:bg-green-600 transition-all duration-300 text-white
+}
+
+.btn_trash{
+    @apply flex p-2.5 bg-red-500 rounded-xl hover:rounded-3xl hover:bg-red-600 transition-all duration-300 text-white
 }

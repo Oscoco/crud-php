@@ -17,19 +17,17 @@
         <a href="#" class="btn_primary shadow"><i class='bx bx-link mx-1'></i> Nuevo Rol </a>
     </div>
 
-
-
     <div class="overflow-x-auto relative shadow-md sm:rounded-lg sm:mx-16 mx-5 mt-8">
         <table class="w-full text-sm text-left text-gray-700">
             <thead class="text-base dark:text-gray-600 font-bold">
                 <tr>
-                    <th scope="col" class="w-auto text-center border-b border-r mx-5 border-gray-200">
+                    <th scope="col" class="w-auto text-center mx-5  border_forms">
                         #
                     </th>
-                    <th scope="col" class="px-5 py-3 border-b border-r border-gray-200">
+                    <th scope="col" class="px-5 py-3  border_forms">
                         Nombre del Rol
                     </th>
-                    <th scope="col" class="py-3 px-5 border-b border-gray-200">
+                    <th scope="col" class="py-3 px-5  border_forms">
                         Acciones
                 </tr>
             </thead>
@@ -43,10 +41,10 @@
                     </td>
                     <td class="py-4 bg-gray-50">
                         <div class='flex items-center justify-center'>
-                            <button class="flex p-2.5 bg-green-500 rounded-xl hover:rounded-3xl hover:bg-green-600 transition-all duration-300 text-white">
-                            <i class='bx bx-edit' ></i>
+                            <button class="btn_update ">
+                            <i class='bx bx-edit'></i>
                             </button>
-                            <button class="flex mx-2 p-2.5 bg-red-500 rounded-xl hover:rounded-3xl hover:bg-red-600 transition-all duration-300 text-white">
+                            <button class="mx-2 btn_trash">
                             <i class='bx bxs-trash' ></i>
                             </button>
                         </div>

@@ -1,6 +1,6 @@
 <?php
 
-    define('PATH','http://localhost/crud');
+    define('PATH','http://localhost/crud/');
 
     $data_base_config = array(
         'host' => 'localhost',
