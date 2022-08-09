@@ -1,7 +1,6 @@
 {
   "name": "crud",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build:css": "postcss ./src/tailwind.css -o ./assets/css/main.css",
@@ -15,5 +14,15 @@
     "autoprefixer": "^10.4.7",
     "postcss-cli": "^10.0.0",
     "tailwindcss": "^3.1.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscoco/crud-php.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oscoco/crud-php/issues"
+  },
+  "homepage": "https://github.com/Oscoco/crud-php#readme",
+  "description": ""
 }

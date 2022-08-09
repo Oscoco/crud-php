@@ -11,6 +11,7 @@
 <body>
     <div class="text-center my-4">
         <p class="title_pages text-3xl sm:text-4xl">Administración de Roles</p>
+        <p class="secondary_pages">Administración de Roles</p>
     </div>
 
     <div class="rounded-md mx-8 flex justify-center sm:justify-start">

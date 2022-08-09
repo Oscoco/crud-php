@@ -1,0 +1,5 @@
+{
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "search.quickOpen.includeSymbols": true,
+    "css.validate": false
+}
